@@ -1,5 +1,4 @@
 pandas
 numpy
 matplotlib
-Jinja2
 ipykernel
