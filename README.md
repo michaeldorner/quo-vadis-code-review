@@ -1,4 +1,6 @@
-# Quo Vadis. Code Review? --- Replication Package
+# Quo Vadis, Code Review?
+
+Replication package for the study *Quo Vadis, Code Review? Exploring the Future of Code Review*
 
 ## Introduction
 
