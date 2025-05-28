@@ -1,4 +1,4 @@
-How many hours on average do you currently review code per week?,"Do you expect to spend more, less, or same time for code review in five years (in comparison to today)?",What software artifacts do you review today?,What software artifacts do you anticipate to review in five years?,What major changes do you anticipate in code review in five years?,"Based on those changes, what implications for code review do you see?",Michael's codes
+How many hours on average do you currently review code per week?,"Do you expect to spend more, less, or same time for code review in five years (in comparison to today)?",What software artifacts do you review today?,What software artifacts do you anticipate to review in five years?,What major changes do you anticipate in code review in five years?,"Based on those changes, what implications for code review do you see?",Michael's comments
 4,About the same on code review,Documentation;Test code;Production code;Parameter/configuration files;,Production code;,,,
 8,Less time on code review,Test code;Production code;Documentation;Parameter/configuration files;,None;,,,
 1,About the same on code review,Documentation;Parameter/configuration files;,Parameter/configuration files;Production code;Documentation;GUI-based test code (end-to-end testing);,,,
@@ -62,3 +62,43 @@ Increased focus on security, compliance, and ethical coding.",Automated code rev
 5,Less time on code review,Documentation;Parameter/configuration files;Production code;,Production code;Documentation;,"Automated code reviews, customized to COMPANY specific needs preferably.
 AI enabled CI for early feedback.","Should be continuously evolving and managed
 Review cycles will be left shifted",Automated code review
+8,More time on code review,Production code;Test code;Documentation;,Documentation;Parameter/configuration files;Production code;Test code;GUI-based test code (end-to-end testing);,More integrated use of AI tools in code review process.,Spending more time on code reviews (proportionally to code production).,
+2,Less time on code review,Production code;Test code;Parameter/configuration files;Documentation;,Test code;Parameter/configuration files;Documentation;Production code;,"I think AI will have an impact on tools, processes, participants, etc and thus also on how we review code. For example, a tool used for reviewing code powered by AI would speed up the process.",I think there will be less time spent on review and the quality would be higher.,
+2,More time on code review,Test code;Documentation;Production code;,Test code;Documentation;Production code;,more code to review because of AI assisted coding,focus and value will shift from writing code to reviewing it. Code to review will be more dangerous and lower quality.,
+1,More time on code review,Production code;,Production code;Parameter/configuration files;Test code;Documentation;,"tests to be included in production code, less hardcoding and more configuration files, better templates and code quality","less bugs, less surprises",
+4,About the same on code review,Production code;Documentation;,Production code;Documentation;,"AI-Powered Code Review Assistants
+More Focus on Design and Intent, Less on Syntax
+Better Integration with CI/CD","Redefinition of Reviewer Responsibilities
+Faster Review Cycles, but Higher Expectations
+Continuous Feedback and Developer Growth
+Review Process Becomes More Context-Aware
+Increased Need for Tooling Literacy",
+2,About the same on code review,Documentation;Parameter/configuration files;Test code;Production code;,Documentation;Test code;Parameter/configuration files;Production code;,more LLM usage in code review,,
+5,Less time on code review,Test code;Parameter/configuration files;Documentation;Production code;,Production code;Test code;Parameter/configuration files;,I am hoping code review time will come down. Minor issues are either fixed either before the PR with the help of AI reviewer. Code itself will be AI generated and we need to verify the logic and flow.,,
+,Less time on code review,Production code;Test code;Documentation;,Documentation;Production code;Test code;,"I spend less time on it today than I did five years ago because I'm more senior and better at it. However, I anticipate spending more time on it with the rise of AI assisted code generation. It'll be more important.",It should be prioritized.,
+5,About the same on code review,Production code;,Documentation;Production code;Test code;,More AI assisted?,,
+6,About the same on code review,Documentation;Production code;Test code;GUI-based test code (end-to-end testing);,Production code;Parameter/configuration files;Documentation;Test code;GUI-based test code (end-to-end testing);,Automated and AI based reviews,"With automation and AI, we can see significant speed in review process, improve consistency.. but may have to be cautious with missing context-specific issues and creativity.",
+2,About the same on code review,Production code;Parameter/configuration files;,Parameter/configuration files;Production code;,More automatized and advanced testing using AI,Quicker reviews,
+8,More time on code review,Production code;Test code;,Test code;Parameter/configuration files;Production code;,AI support in the process,"To perform code review faster
+More code review requests",
+4,About the same on code review,Production code;,Production code;Parameter/configuration files;,Ai everywhere,Less code review,
+2,Less time on code review,Production code;Test code;Parameter/configuration files;,None;,AI powered reviews. Like codium but more advanced,It will be done automatically,
+2,More time on code review,Parameter/configuration files;Test code;Production code;Documentation;,Test code;Documentation;Parameter/configuration files;Production code;,Introducing more automated way to suggest improvements.,,
+3,About the same on code review,Parameter/configuration files;Production code;Test code;,Test code;Production code;Parameter/configuration files;,AI supporting tools with more recommendations,Focus will move to more general view rather than detail,
+3,Less time on code review,Production code;Parameter/configuration files;,Documentation;Production code;Parameter/configuration files;,"More automation
+AI-augmented process","Code review will probably be less about code correctness, but more about checking if it meets the client requirements and adheres to some specific needs of the production environment.",
+2,More time on code review,Parameter/configuration files;,Production code;Test code;Parameter/configuration files;Documentation;,"more automated tools for ai-based CR
+CR suggestions based on AI",,
+4,About the same on code review,Production code;Parameter/configuration files;,Production code;Test code;,More AI integration for support,Not sure,
+10,More time on code review,Parameter/configuration files;Production code;Test code;,Documentation;GUI-based test code (end-to-end testing);Production code;Parameter/configuration files;,"Improvement of tools based on advances in AI
+Legal considerations because of the use of AI",Doing more code reviews since code generation with AI is becoming more popular,
+12,More time on code review,Production code;Test code;Parameter/configuration files;,Production code;GUI-based test code (end-to-end testing);Parameter/configuration files;Test code;,"Since the amount of generated code will be more in the future, more time will be spent on reviewing the code.","More focus on code review
+More focus on code quality
+More focus on testing
+More focus on architecture",
+6,About the same on code review,Production code;Test code;,Test code;Production code;,AI integration with coding tasks,Code review improvements,
+12,More time on code review,Parameter/configuration files;Production code;Test code;,Test code;Parameter/configuration files;Production code;,AI support in code review and documentation,Developers will spend more time on code review since code generation will be more prominent,
+8,More time on code review,Test code;Production code;Parameter/configuration files;,Test code;Production code;Parameter/configuration files;,"AI support for code review similar to copilot
+More code review tasks as the amount of generated code increases",Spending more time on code review rather than coding,
+16,More time on code review,Documentation;Test code;Parameter/configuration files;Production code;,Production code;Documentation;Test code;Parameter/configuration files;,"I anticipate spending more time on code review as we are getting a lot of tools that support code generation. Therefore, we will have more code to review. Maybe there will be some sort of AI support for code review as well. But give the recent development (Microsoft fiasco with their code review with AI [wink wink]), I doubt it will be soon.","As I mentioned, we will spend more time on code review. 
+I am a bit concerned about the future generation of developers as they will have less experience actually coding.",
