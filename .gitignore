@@ -175,4 +175,4 @@ cython_debug/
 .DS_Store
 
 # Project related files
-Q*.csv
+results/

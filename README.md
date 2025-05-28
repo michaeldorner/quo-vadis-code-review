@@ -6,7 +6,8 @@ This replication package provides the raw data as well as the analysis of an onl
 
 ## Raw Data
 
-The raw data is available in the [raw_data.csv](./raw_data.csv) file. The data is in CSV format where each column represents a question from the survey and each row represents a response from a participant. The columns are as follows:
+The raw data can be found in the `data` folder as a file named [raw_data.csv](./data/raw_data.csv).
+This file is in a CSV format where each column represents a question from the survey and each row represents a response from a participant. The columns are as follows:
 
 - How many hours on average do you currently review code per week?
 - Do you expect to spend more, less, or same time for code review in five years (in comparison to today)?
