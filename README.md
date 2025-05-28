@@ -13,7 +13,8 @@ This file is in a CSV format where each column represents a question from the su
 
 - How many hours on average do you currently review code per week?
 - Do you expect to spend more, less, or same time for code review in five years (in comparison to today)?
-- What software artifacts do you review today?,What software artifacts do you anticipate to review in five years?
+- What software artifacts do you review today?
+- What software artifacts do you anticipate to review in five years?
 - What major changes do you anticipate in code review in five years?
 - Based on those changes, what implications for code review do you see?
 
