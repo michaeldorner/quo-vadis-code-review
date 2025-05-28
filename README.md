@@ -4,7 +4,7 @@ Replication package for the study *Quo Vadis, Code Review? Exploring the Future 
 
 ## Introduction
 
-This replication package provides the raw data as well as the analysis of an online survey conducted in 2025 to investigate the future of code review.
+This replication package provides the raw data as well as the analysis of an online survey conducted in late 2025 and early 2026 to investigate the future of code review.
 
 ## Raw Data
 
