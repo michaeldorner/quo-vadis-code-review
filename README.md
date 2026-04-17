@@ -24,7 +24,21 @@ A final column contains the assigned code.
 
 The analysis of the data is available in the [main.ipynb](./main.ipynb) file.
 
-Install all dependencies using the following command:
+We recommend to use [uv](https://github.com/astral-sh/uv) as Python package manager.
+
+Create an virtual Python environment (we used Python version 3.12):
+
+```sh
+uv venv --python 3.12
+```
+
+Install all Python dependencies:
+
+```sh
+uv pip install -r requirements.txt
+```
+
+Alternatively, you can install all dependencies directly in your environment:
 
 ```bash
 pip install -r requirements.txt
